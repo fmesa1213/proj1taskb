@@ -1,1 +1,9 @@
 D R R D R;
+
+D D D R R;
+
+D R D R U;
+
+D L U L L;
+
+D R U R R;
