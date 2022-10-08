@@ -28,7 +28,7 @@ char f[100];
 
 cin.getline(f,100); 
 	
-open("directions.txt");
+file.open("directions.txt");
 
 while(f[x] != '\0')           
 {
