@@ -7,6 +7,7 @@ I wrote a program that initializes the map and stream in a list of directions as
 */
 
 #include <iostream>
+#include <directions.txt>
 using namespace std;
 int main()
 
@@ -25,7 +26,9 @@ int i=-1,j=0,x=0;
 
 char f[100];                   
 
-cin.getline(f,100);            
+cin.getline(f,100); 
+	
+open("directions.txt");
 
 while(f[x] != '\0')           
 {
